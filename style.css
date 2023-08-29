@@ -396,6 +396,18 @@ body{
   font-weight: 500;
 }
 
+.button-newcomer{
+  color: #FF6E30;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: #1E252B;
+  width: 184px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
 .name-photo{
   width: 265px;
   height: 91px;
