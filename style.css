@@ -67,8 +67,6 @@ body {
 
 body{
   background: #1e252b;
-  width: 1440px;
-  height: 5252px;
 }
 
 .header {
@@ -254,10 +252,39 @@ body{
   margin-left: 30px;
 }
 
-.popular-app2::before {
+.popular-app:nth-child(1) > .popular-app2:before {
   content: url(img/grommet-icons_figma.svg);
-  width: 64px;
-  height: 64px;
+
+  margin-bottom: 31px;
+}
+
+.popular-app:nth-child(2) > .popular-app2:before {
+  content: url(img/logos_sketch.svg);
+
+  margin-bottom: 31px;
+}
+
+.popular-app:nth-child(3) > .popular-app2:before {
+  content: url(img/logos_visual-studio-code.svg);
+
+  margin-bottom: 31px;
+}
+
+.popular-app:nth-child(4) > .popular-app2:before {
+  content: url(img/notion.svg);
+
+  margin-bottom: 31px;
+}
+
+.popular-app:nth-child(5) > .popular-app2:before {
+  content: url(img/grommet-icons_slack.svg);
+
+  margin-bottom: 31px;
+}
+
+.popular-app:nth-child(6) > .popular-app2:before {
+  content: url(img/logos_invision-icon.svg);
+
   margin-bottom: 31px;
 }
 
@@ -418,7 +445,7 @@ body{
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-image: url(img/Rectangle\ 327.jpg);
-  top: 285px;
+  top: -1055px;
   left: 130px;
   position: relative;
   padding: 10px 22px 16px 23px;
