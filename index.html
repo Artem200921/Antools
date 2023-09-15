@@ -13,7 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <title>Document</title>
+    <title>antools</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -43,6 +43,8 @@
           <li class="register-login-item">
             <button class="button-header">Sing Up</button>
           </li>
+          <li><a href="#" class="En">En</a></li>
+          <li><a href="index-ukrainian.html" class="En-Ua">Ua</a></li>
         </ul>
       </div>
     </header>
@@ -207,7 +209,7 @@
         </ul>
       </section>
       <section class="newcomer container">
-        <div>
+        <div class="newcomer-wrapper">
           <h2 class="newcomer-h2-title">Newcomer Tools</h2>
           <p class="newcomer-p-subtitle">
             Wow! see the latest update of the most recommended tools from
@@ -230,7 +232,7 @@
             <button type="button" class="visit-button-newcomer">Visit</button>
           </li>
           <li class="newcomer-app">
-            <img src="img/Group.svg" alt="" class="newcomer-app-icon" />
+            <img src="img/jb_phpstorm.svg" alt="" class="newcomer-app-icon" />
             <div class="div-flex-for-h3-p">
               <h3 class="newcomer-title">PHPStorm</h3>
               <p class="newcomer-subtitle">Free</p>
@@ -275,39 +277,70 @@
         </ul>
       </section>
       <section class="testimonial container">
-        <ul class="photo-list">
-          <li class="chevron-testimonial">
-            <a href="#" class="chevron-left"></a>
-          </li>
-          <li class="photo-item">
-            <img
-              src="img/david-suarez-4a1nNlrS5ZI-unsplash.png"
-              alt=""
-              class="photo"
-            />
+        <div class="slideshow-container photo-list">
+          <div class="mySlides fade photo-item">
             <div class="name-photo">
               <h3 class="h3-photo">Ronald Richards</h3>
               <p class="p-photo">Product Manager</p>
             </div>
-          </li>
-          <li class="photo-item-p">
-            <div class="photo-item-“"><p class="“">“</p></div>
-            <p class="testimonial-p">
-              Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
-              reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do
-              nulla velit labore occaecat do deserunt Lorem magna officia
-              incididunt consectetur amet. Sunt consectetur veniam minim ex
-              commodo sint non. Occaecat aute officia excepteur non laboris id
-              qui ad.
-            </p>
-          </li>
-          <li class="chevron-testimonial">
-            <a href="#" class="chevron-right"></a>
-          </li>
-          <li class="page-testimonial-item">
-            <div class="page-testimonial"></div>
-          </li>
-        </ul>
+            <div class="photo-item-p">
+              <p class="testimonial-p">
+                Incididunt cillum do sint sint enim ullamco id deserunt mollit
+                qui reprehenderit do. Velit ex tempor cillum ad sint occaecat.
+                Do nulla velit labore occaecat do deserunt Lorem magna officia
+                incididunt consectetur amet. Sunt consectetur veniam minim ex
+                commodo sint non. Occaecat aute officia excepteur non laboris id
+                qui ad.
+              </p>
+            </div>
+          </div>
+
+          <div class="mySlides fade photo-item">
+            <div class="name-photo">
+              <h3 class="h3-photo">Ronald Richards</h3>
+              <p class="p-photo">Product Manager</p>
+            </div>
+            <div class="photo-item-p">
+              <p class="testimonial-p">
+                Incididunt cillum do sint sint enim ullamco id deserunt mollit
+                qui reprehenderit do. Velit ex tempor cillum ad sint occaecat.
+                Do nulla velit labore occaecat do deserunt Lorem magna officia
+                incididunt consectetur amet. Sunt consectetur veniam minim ex
+                commodo sint non. Occaecat aute officia excepteur non laboris id
+                qui ad.
+              </p>
+            </div>
+          </div>
+
+          <div class="mySlides fade photo-item">
+            <div class="name-photo">
+              <h3 class="h3-photo">Ronald Richards</h3>
+              <p class="p-photo">Product Manager</p>
+            </div>
+            <div class="photo-item-p">
+              <p class="testimonial-p">
+                Incididunt cillum do sint sint enim ullamco id deserunt mollit
+                qui reprehenderit do. Velit ex tempor cillum ad sint occaecat.
+                Do nulla velit labore occaecat do deserunt Lorem magna officia
+                incididunt consectetur amet. Sunt consectetur veniam minim ex
+                commodo sint non. Occaecat aute officia excepteur non laboris id
+                qui ad.
+              </p>
+            </div>
+          </div>
+          <a class="next" onclick="plusSlides(1)"
+            ><img src="img/chevron-right.svg" alt=""
+          /></a>
+          <a class="prev" onclick="plusSlides(-1)"
+            ><img src="img/chevron-left.svg" alt=""
+          /></a>
+        </div>
+        <br />
+        <div class="dot-list">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
       </section>
       <section class="join container">
         <div class="join-div">
@@ -360,5 +393,6 @@
         </li>
       </ul>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,16 +1,425 @@
 <!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@400;500;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <title>antools</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-div container">
+        <a href="#" class="logo-header">antools.</a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Додому</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Категорії</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Мої колекції</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Блог</a></li>
+          </ul>
+        </nav>
+        <ul class="register-login">
+          <li class="">
+            <button
+              class="register-login-item-button-text register-login-item-button"
+            >
+              Логін
+            </button>
+          </li>
+          <li class="register-login-item">
+            <button class="button-header">Зареєструватись</button>
+          </li>
+          <li><a href="index.html" class="En-Ua">En</a></li>
+          <li><a href="#" class="Ua">Ua</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="wrapper-main">
+          <h2 class="hero-title">
+            Чудові інструменти для дизайнера та розробника
+            <span class="hero-title-dot">.</span>
+          </h2>
+          <p class="hero-subtitle">
+            Antool — це веб-добірка інформації про платний або безкоштовний
+            дизайн і Засоби розробки
+          </p>
+          <form action="/my-handling-form-page" method="post">
+            <input
+              type="search"
+              name="search"
+              id="input-header"
+              class="form-header"
+              placeholder="Знайдіть понад 430 інструментів..."
+            />
+            <button class="form-button" type="button">Пошук</button>
+          </form>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://uk-ua.facebook.com/"
+                class="social-facebook social"
+                target="_blank"
+              ></a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="social-instagram social"
+              ></a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://twitter.com/?lang=uk"
+                class="social-twitter social"
+                target="_blank"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="popular container">
+        <div class="popular-wrapper">
+          <h1 class="popular-h1-title">Найпопулярніші інструменти</h1>
+          <p class="popular-p-subtitle">
+            Інструменти для найкращих дизайнерів і розробників, які найчастіше
+            використовуються в світ
+          </p>
+        </div>
+        <ul class="popular-apps">
+          <li class="popular-app">
+            <img
+              src="img/grommet-icons_figma.svg"
+              alt=""
+              class="popular-app-icon"
+            />
+            <div class="div-flex-for-h3-p">
+              <h3 class="popular-title">FIGMA</h3>
+              <p class="popular-subtitle">Безкоштовно</p>
+            </div>
+            <p class="popular-subsubtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="like"></button>
+            <button type="button" class="folder"></button>
+            <button type="button" class="visit-button">Відвідайте</button>
+          </li>
+          <li class="popular-app">
+            <img src="img/logos_sketch.svg" alt="" class="popular-app-icon" />
+            <div class="div-flex-for-h3-p">
+              <h3 class="popular-title">Sketch</h3>
+              <p class="popular-subtitle">Пробний і платний</p>
+            </div>
+            <p class="popular-subsubtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="like"></button>
+            <button type="button" class="folder"></button>
+            <button type="button" class="visit-button">Відвідайте</button>
+          </li>
+          <li class="popular-app">
+            <img
+              src="img/logos_visual-studio-code.svg"
+              alt=""
+              class="popular-app-icon"
+            />
+            <div class="div-flex-for-h3-p">
+              <h3 class="popular-title">Visual Studio Code</h3>
+              <p class="popular-subtitle">Безкоштовно</p>
+            </div>
+            <p class="popular-subsubtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="like"></button>
+            <button type="button" class="folder"></button>
+            <button type="button" class="visit-button">Відвідайте</button>
+          </li>
+          <li class="popular-app">
+            <img src="img/notion.svg" alt="" class="popular-app-icon" />
+            <div class="div-flex-for-h3-p">
+              <h3 class="popular-title">Notion</h3>
+              <p class="popular-subtitle">Безкоштовно та платно</p>
+            </div>
+            <p class="popular-subsubtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="like"></button>
+            <button type="button" class="folder"></button>
+            <button type="button" class="visit-button">Відвідайте</button>
+          </li>
+          <li class="popular-app">
+            <img
+              src="img/grommet-icons_slack.svg"
+              alt=""
+              class="popular-app-icon"
+            />
+            <div class="div-flex-for-h3-p">
+              <h3 class="popular-title">Slack</h3>
+              <p class="popular-subtitle">Безкоштовно та платно</p>
+            </div>
+            <p class="popular-subsubtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="like"></button>
+            <button type="button" class="folder"></button>
+            <button type="button" class="visit-button">Відвідайте</button>
+          </li>
+          <li class="popular-app">
+            <img
+              src="img/logos_invision-icon.svg"
+              alt=""
+              class="popular-app-icon"
+            />
+            <div class="div-flex-for-h3-p">
+              <h3 class="popular-title">Invision</h3>
+              <p class="popular-subtitle">Безкоштовно та платно</p>
+            </div>
+            <p class="popular-subsubtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="like"></button>
+            <button type="button" class="folder"></button>
+            <button type="button" class="visit-button">Відвідайте</button>
+          </li>
+        </ul>
+        <button type="button" class="button-popular">Завантажити ще</button>
+      </section>
+      <section class="brand container">
+        <h2 class="brand-title">Довіряють понад 150 брендам</h2>
+        <ul class="brand-list">
+          <li>
+            <a href="https://www.microsoft.com/uk-ua" target="_blank"
+              ><img src="img/logos_microsoft.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.google.com.ua/?hl=uk" target="_blank"
+              ><img src="img/logos_google.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://slack.com/" target="_blank"
+              ><img src="img/logos_slack.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://uk.wordpress.org/" target="_blank"
+              ><img src="img/logos_wordpress.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </section>
+      <section class="newcomer container">
+        <div class="newcomer-wrapper">
+          <h2 class="newcomer-h2-title">Інструменти для новачків</h2>
+          <p class="newcomer-p-subtitle">
+            Ого! перегляньте останнє оновлення найбільш рекомендованих
+            інструментів від надійні дизайнери та розробники
+          </p>
+          <button type="button" class="newcomer-button">
+            Досліджуйте більше
+          </button>
+        </div>
+        <ul class="newcomer-apps">
+          <li class="newcomer-app">
+            <img src="img/zeplin.svg" alt="" class="newcomer-app-icon" />
+            <div class="div-flex-for-h3-p">
+              <h3 class="newcomer-title">Zeplin</h3>
+              <p class="newcomer-subtitle">Безкоштовно та платно</p>
+            </div>
+            <p class="newcomer-subsubtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="like"></button>
+            <button type="button" class="folder"></button>
+            <button type="button" class="visit-button-newcomer">
+              Відвідайте
+            </button>
+          </li>
+          <li class="newcomer-app">
+            <img src="img/jb_phpstorm.svg" alt="" class="newcomer-app-icon" />
+            <div class="div-flex-for-h3-p">
+              <h3 class="newcomer-title">PHPStorm</h3>
+              <p class="newcomer-subtitle">Безкоштовно</p>
+            </div>
+            <p class="newcomer-subsubtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="like"></button>
+            <button type="button" class="folder"></button>
+            <button type="button" class="visit-button-newcomer">
+              Відвідайте
+            </button>
+          </li>
+          <li class="newcomer-app">
+            <img
+              src="img/jb_toolbox_app.svg"
+              alt=""
+              class="newcomer-app-icon"
+            />
+            <div class="div-flex-for-h3-p">
+              <h3 class="newcomer-title">Toolbox</h3>
+              <p class="newcomer-subtitle">Безкоштовно</p>
+            </div>
+            <p class="newcomer-subsubtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="like"></button>
+            <button type="button" class="folder"></button>
+            <button type="button" class="visit-button-newcomer">
+              Відвідайте
+            </button>
+          </li>
+          <li class="newcomer-app">
+            <img src="img/procreate.svg" alt="" class="newcomer-app-icon" />
+            <div class="div-flex-for-h3-p">
+              <h3 class="newcomer-title">Procreate</h3>
+              <p class="newcomer-subtitle">Безкоштовно</p>
+            </div>
+            <p class="newcomer-subsubtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="like"></button>
+            <button type="button" class="folder"></button>
+            <button type="button" class="visit-button-newcomer">
+              Відвідайте
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="testimonial container">
+        <div class="slideshow-container photo-list">
+          <div class="mySlides fade photo-item">
+            <div class="name-photo">
+              <h3 class="h3-photo">Рональд Річардс</h3>
+              <p class="p-photo">Менеджер по продукції</p>
+            </div>
+            <div class="photo-item-p">
+              <p class="testimonial-p">
+                Incididunt cillum do sint sint enim ullamco id deserunt mollit
+                qui reprehenderit do. Velit ex tempor cillum ad sint occaecat.
+                Do nulla velit labore occaecat do deserunt Lorem magna officia
+                incididunt consectetur amet. Sunt consectetur veniam minim ex
+                commodo sint non. Occaecat aute officia excepteur non laboris id
+                qui ad.
+              </p>
+            </div>
+          </div>
+
+          <div class="mySlides fade photo-item">
+            <div class="name-photo">
+              <h3 class="h3-photo">Рональд Річардс</h3>
+              <p class="p-photo">Менеджер по продукції</p>
+            </div>
+            <div class="photo-item-p">
+              <p class="testimonial-p">
+                Incididunt cillum do sint sint enim ullamco id deserunt mollit
+                qui reprehenderit do. Velit ex tempor cillum ad sint occaecat.
+                Do nulla velit labore occaecat do deserunt Lorem magna officia
+                incididunt consectetur amet. Sunt consectetur veniam minim ex
+                commodo sint non. Occaecat aute officia excepteur non laboris id
+                qui ad.
+              </p>
+            </div>
+          </div>
+
+          <div class="mySlides fade photo-item">
+            <div class="name-photo">
+              <h3 class="h3-photo">Рональд Річардс</h3>
+              <p class="p-photo">Менеджер по продукції</p>
+            </div>
+            <div class="photo-item-p">
+              <p class="testimonial-p">
+                Incididunt cillum do sint sint enim ullamco id deserunt mollit
+                qui reprehenderit do. Velit ex tempor cillum ad sint occaecat.
+                Do nulla velit labore occaecat do deserunt Lorem magna officia
+                incididunt consectetur amet. Sunt consectetur veniam minim ex
+                commodo sint non. Occaecat aute officia excepteur non laboris id
+                qui ad.
+              </p>
+            </div>
+          </div>
+          <a class="next" onclick="plusSlides(1)"
+            ><img src="img/chevron-right.svg" alt=""
+          /></a>
+          <a class="prev" onclick="plusSlides(-1)"
+            ><img src="img/chevron-left.svg" alt=""
+          /></a>
+        </div>
+        <br />
+        <div class="dot-list">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+      <section class="join container">
+        <div class="join-div">
+          <h2 class="join-title">Стати дописувачем?</h2>
+          <p class="join-subtitle">
+            Приєднуйтесь до нас і отримуйте поради та підказки, щоб стати
+            чудовим дизайнером Розробник
+          </p>
+          <form action="/my-handling-form-page" method="post">
+            <input
+              type="search"
+              name="search"
+              class="join-form"
+              placeholder="Введіть свою електронну адресу..."
+            />
+            <button class="join-form-button" type="button">Пошук</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <div class="main-transition-footer"></div>
+    <footer class="main-footer container">
+      <a href="index-english.html" class="footer-logo">antools.</a>
+      <ul class="footer-list">
+        <li class="footer-group-1 fg">
+          <h4 class="footer-group-1-title">Авторське право 2021. Antools</h4>
+          <p class="footer-group-1-subtitle">
+            Antool — це веб-добірка інформації про платний або безкоштовний
+            дизайн і Засоби розробки
+          </p>
+        </li>
+        <li class="footer-group-2 fg">
+          <h4 class="footer-group-2-title">Зв'яжіться з нами</h4>
+          <a href="tel:+621987463" class="footer-links">+621987463</a>
+          <a href="#" class="footer-links">М корпус, №10 А</a>
+          <a href="mailto:antools@awesome.com" class="footer-links"
+            >antools@awesome.com</a
+          >
+        </li>
+        <li class="footer-group-3 fg">
+          <h4 class="footer-group-2-title">Категорії</h4>
+          <a href="#" class="footer-links">Дизайн</a>
+          <a href="#" class="footer-links">Розвиток</a>
+        </li>
+        <li class="footer-group-4 fg">
+          <h4 class="footer-group-2-title">Інформація про компанію</h4>
+          <a href="#" class="footer-links">Про нас</a>
+          <a href="#" class="footer-links">Наші партнери</a>
+          <a href="#" class="footer-links">Блог</a>
+        </li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
