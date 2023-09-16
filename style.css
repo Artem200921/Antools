@@ -687,7 +687,7 @@ body {
   width: 1224px;
   height: 600px;
   flex-shrink: 0;
-  margin-top: 400px;
+  margin-top: 200px;
   background-image: url(img/“.svg);
   background-repeat: no-repeat;
   background-position: 425px 150px;
