@@ -734,6 +734,10 @@ body {
   flex-direction: row-reverse;
 }
 
+.prev{
+  margin-left: -100px;
+}
+
 .prev, .next{
   border-radius: 0 3px 3px 0;
   cursor: pointer;
@@ -744,6 +748,12 @@ body {
   padding: 16px;
   transition: 0.6s ease;
   user-select: none;
+  color: rgba(255, 255, 255, 0.28);
+  font-size: 48px;
+}
+
+.prev:hover, .next:hover{
+  color: rgba(255, 110, 48, 1);
 }
 
 .next{
@@ -756,15 +766,16 @@ body {
   width: 1224px;
   height: 8px;
   justify-content: center;
+  column-gap: 10px;
 }
 
 .dot {
-  width: 4%;
-  height: 50%;
+  width: 3.5%;
+  height: 100%;
   cursor: pointer;
   margin: 0 2px;
-  background-color: rgba(255, 255, 255, 0.28);
-  border-radius: 25%;
+  background-color: rgba(40, 48, 54, 1);
+  border-radius: 10px;
   transition: background-color 0.6s ease;
 }
 
