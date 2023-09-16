@@ -594,6 +594,8 @@ body {
 }
 
 .newcomer-app:hover {
+  background-size: 68px 63px;
+  background-image: url(img/Ellipse-194.svg);
   background-repeat: no-repeat;
   background-position: top right;
   border-radius: 15px;
@@ -877,7 +879,7 @@ body {
 /* </main> */
 
 .main-transition-footer {
-  width: 1440px;
+  width: auto;
   height: 0.5px;
   background: rgba(255, 255, 255, 0.15);
 }
