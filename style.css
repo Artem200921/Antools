@@ -97,6 +97,7 @@ body {
   font-size: 22px;
   font-weight: 600;
   margin-right: 257px;
+  width: 100px;
 }
 
 .logo-header:hover {
@@ -831,12 +832,12 @@ body {
   background-color: rgba(255, 110, 48, 1);
 }
 
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+.slider {
+  animation-name: fadeInLeft;
+  animation-duration: 0.5s;
 }
 
-@keyframes fade {
+@keyframes slider {
   from {opacity: .4}
   to {opacity: 1}
 }
@@ -1010,6 +1011,8 @@ body {
   display: inline-block;
 }
 
-.fg:not(:last-child) a {
-  margin-bottom: 10px;
+.fg{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }

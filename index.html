@@ -13,23 +13,31 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>antools</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header container">
       <div class="header-div container">
         <a href="#" class="logo-header">antools.</a>
         <nav class="nav">
           <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link link-hover">Home</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link link-hover">Home</a>
+            </li>
             <li class="nav-item">
               <a href="#" class="nav-link link-hover">Categories</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link link-hover">My Collections</a>
             </li>
-            <li class="nav-item"><a href="#" class="nav-link link-hover">Blog</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link link-hover">Blog</a>
+            </li>
           </ul>
         </nav>
         <ul class="register-login">
@@ -44,12 +52,14 @@
             <button class="button-header">Sing Up</button>
           </li>
           <li><a href="#" class="En link-hover">En</a></li>
-          <li><a href="index-ukrainian.html" class="En-Ua link-hover">Ua</a></li>
+          <li>
+            <a href="index-ukrainian.html" class="En-Ua link-hover">Ua</a>
+          </li>
         </ul>
       </div>
     </header>
     <main class="main container">
-      <section class="hero">
+      <section class="hero animate__animated animate__backInUp">
         <div class="wrapper-main">
           <h2 class="hero-title">
             Awesome tools for Designer & Developer<span class="hero-title-dot"
@@ -102,7 +112,7 @@
           </p>
         </div>
         <ul class="popular-apps">
-          <li class="popular-app">
+          <li class="popular-app animate__animated animate__backInDown">
             <img
               src="img/grommet-icons_figma.svg"
               alt=""
@@ -119,7 +129,7 @@
             <button type="button" class="folder"></button>
             <button type="button" class="visit-button">Visit</button>
           </li>
-          <li class="popular-app">
+          <li class="popular-app animate__animated animate__backInDown">
             <img src="img/logos_sketch.svg" alt="" class="popular-app-icon" />
             <div class="div-flex-for-h3-p">
               <h3 class="popular-title">Sketch</h3>
@@ -132,7 +142,7 @@
             <button type="button" class="folder"></button>
             <button type="button" class="visit-button">Visit</button>
           </li>
-          <li class="popular-app">
+          <li class="popular-app animate__animated animate__backInDown">
             <img
               src="img/logos_visual-studio-code.svg"
               alt=""
@@ -149,7 +159,7 @@
             <button type="button" class="folder"></button>
             <button type="button" class="visit-button">Visit</button>
           </li>
-          <li class="popular-app">
+          <li class="popular-app animate__animated animate__backInUp">
             <img src="img/notion.svg" alt="" class="popular-app-icon" />
             <div class="div-flex-for-h3-p">
               <h3 class="popular-title">Notion</h3>
@@ -162,7 +172,7 @@
             <button type="button" class="folder"></button>
             <button type="button" class="visit-button">Visit</button>
           </li>
-          <li class="popular-app">
+          <li class="popular-app animate__animated animate__backInUp">
             <img
               src="img/grommet-icons_slack.svg"
               alt=""
@@ -179,7 +189,7 @@
             <button type="button" class="folder"></button>
             <button type="button" class="visit-button">Visit</button>
           </li>
-          <li class="popular-app">
+          <li class="popular-app animate__animated animate__backInUp">
             <img
               src="img/logos_invision-icon.svg"
               alt=""
@@ -202,10 +212,10 @@
       <section class="brand container">
         <h2 class="brand-title">Trusted more than 150+ brand</h2>
         <ul class="brand-list">
-          <li><img src="img/logos_microsoft.png" alt="" /></li>
-          <li><img src="img/logos_google.png" alt="" /></li>
-          <li><img src="img/logos_slack.png" alt="" /></li>
-          <li><img src="img/logos_wordpress.png" alt="" /></li>
+          <li><a href="https://www.microsoft.com/uk-ua" target="_blank"><img src="img/logos_microsoft.png" alt="" /></a></li>
+          <li><a href="https://www.google.com.ua/?hl=uk" target="_blank"><img src="img/logos_google.png" alt="" /></a></li>
+          <li><a href="https://slack.com/" target="_blank"><img src="img/logos_slack.png" alt="" /></a></li>
+          <li><a href="https://uk.wordpress.org/" target="_blank"><img src="img/logos_wordpress.png" alt="" /></a></li>
         </ul>
       </section>
       <section class="newcomer container">
@@ -218,7 +228,7 @@
           <button type="button" class="newcomer-button">Explore more</button>
         </div>
         <ul class="newcomer-apps">
-          <li class="newcomer-app">
+          <li class="newcomer-app animate__animated animate__backInUp">
             <img src="img/zeplin.svg" alt="" class="newcomer-app-icon" />
             <div class="div-flex-for-h3-p">
               <h3 class="newcomer-title">Zeplin</h3>
@@ -231,7 +241,7 @@
             <button type="button" class="folder"></button>
             <button type="button" class="visit-button-newcomer">Visit</button>
           </li>
-          <li class="newcomer-app">
+          <li class="newcomer-app animate__animated animate__backInUp">
             <img src="img/jb_phpstorm.svg" alt="" class="newcomer-app-icon" />
             <div class="div-flex-for-h3-p">
               <h3 class="newcomer-title">PHPStorm</h3>
@@ -244,7 +254,7 @@
             <button type="button" class="folder"></button>
             <button type="button" class="visit-button-newcomer">Visit</button>
           </li>
-          <li class="newcomer-app">
+          <li class="newcomer-app animate__animated animate__backInDown">
             <img
               src="img/jb_toolbox_app.svg"
               alt=""
@@ -261,7 +271,7 @@
             <button type="button" class="folder"></button>
             <button type="button" class="visit-button-newcomer">Visit</button>
           </li>
-          <li class="newcomer-app">
+          <li class="newcomer-app animate__animated animate__backInDown">
             <img src="img/procreate.svg" alt="" class="newcomer-app-icon" />
             <div class="div-flex-for-h3-p">
               <h3 class="newcomer-title">Procreate</h3>
@@ -278,7 +288,7 @@
       </section>
       <section class="testimonial container">
         <div class="slideshow-container photo-list">
-          <div class="mySlides fade photo-item">
+          <div class="mySlides slider photo-item">
             <div class="name-photo">
               <h3 class="h3-photo">Ronald Richards</h3>
               <p class="p-photo">Product Manager</p>
@@ -295,7 +305,7 @@
             </div>
           </div>
 
-          <div class="mySlides fade photo-item">
+          <div class="mySlides slider photo-item">
             <div class="name-photo">
               <h3 class="h3-photo">Snoop dogg</h3>
               <p class="p-photo">Hip hop singer</p>
@@ -312,7 +322,7 @@
             </div>
           </div>
 
-          <div class="mySlides fade photo-item">
+          <div class="mySlides slider photo-item">
             <div class="name-photo">
               <h3 class="h3-photo">Amogus</h3>
               <p class="p-photo">Game Abobus</p>
@@ -370,7 +380,9 @@
         </li>
         <li class="footer-group-2 fg">
           <h4 class="footer-group-2-title">Contact Us</h4>
-          <a href="tel:+621987463" class="footer-links link-hover">+621987463</a>
+          <a href="tel:+621987463" class="footer-links link-hover"
+            >+621987463</a
+          >
           <a href="#" class="footer-links link-hover">M Building, No.10 A</a>
           <a href="mailto:antools@awesome.com" class="footer-links link-hover"
             >antools@awesome.com</a
