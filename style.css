@@ -73,8 +73,8 @@ body {
 
 /* Все що зв'язане з header-ом зверху вниз */
 
-.link-hover:hover{
-  color: #FF6E30;
+.link-hover:hover {
+  color: #ff6e30;
 }
 
 .header {
@@ -101,7 +101,7 @@ body {
 }
 
 .logo-header:hover {
-  color: #FF6E30;
+  color: #ff6e30;
   align-items: center;
 }
 
@@ -156,19 +156,19 @@ body {
   opacity: 0.78;
 }
 
-.En-Ua{
+.En-Ua {
   color: rgba(255, 255, 255, 0.55);
   font-size: 16px;
   font-weight: 600;
 }
 
-.En{
+.En {
   color: rgba(255, 255, 255, 0.78);
   font-size: 16px;
   font-weight: 600;
 }
 
-.Ua{
+.Ua {
   color: rgba(255, 255, 255, 0.78);
   font-size: 16px;
   font-weight: 600;
@@ -177,7 +177,7 @@ body {
 /* </register-login-translate> */
 
 .button-header {
-  color: #FDF5FF;
+  color: #fdf5ff;
   width: 118px;
   height: 48px;
   flex-shrink: 0;
@@ -726,8 +726,8 @@ body {
   height: 490px;
   flex-shrink: 0;
   background-position: -50px, center center, center center;
-  background-image: url(img/snoop-dogg-27.png),
-    url(img/Ellipse-197.png), url(img/Ellipse-196.png);
+  background-image: url(img/snoop-dogg-27.png), url(img/Ellipse-197.png),
+    url(img/Ellipse-196.png);
   background-repeat: no-repeat;
 }
 
@@ -746,7 +746,6 @@ body {
     url(img/Ellipse-197.png), url(img/Ellipse-196.png);
   background-repeat: no-repeat;
 }
-
 
 .name-photo {
   flex-direction: column;
@@ -776,18 +775,19 @@ body {
   font-weight: 400;
 }
 
-.div-chevron{
+.div-chevron {
   justify-content: flex-end;
   display: flex;
   width: auto;
   flex-direction: row-reverse;
 }
 
-.prev{
+.prev {
   margin-left: -100px;
 }
 
-.prev, .next{
+.prev,
+.next {
   border-radius: 0 3px 3px 0;
   cursor: pointer;
   position: absolute;
@@ -801,15 +801,16 @@ body {
   font-size: 48px;
 }
 
-.prev:hover, .next:hover{
+.prev:hover,
+.next:hover {
   color: rgba(255, 110, 48, 1);
 }
 
-.next{
+.next {
   right: 0;
 }
 
-.dot-list{
+.dot-list {
   display: flex;
   text-align: center;
   width: 1224px;
@@ -828,7 +829,8 @@ body {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: rgba(255, 110, 48, 1);
 }
 
@@ -838,8 +840,12 @@ body {
 }
 
 @keyframes slider {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .photo-item-p {
@@ -1011,7 +1017,7 @@ body {
   display: inline-block;
 }
 
-.fg{
+.fg {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
